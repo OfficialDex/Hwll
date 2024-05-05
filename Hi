@@ -3,869 +3,939 @@
 
 -- Instances:
 
-local Main = Instance.new("ScreenGui")
-local Holder = Instance.new("Frame")
-local TabsButton = Instance.new("Frame")
+local Newfluxsos = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local left = Instance.new("Frame")
+local executebutton = Instance.new("Frame")
 local UICorner = Instance.new("UICorner")
-local EXEtab = Instance.new("ImageButton")
-local UIPadding = Instance.new("UIPadding")
-local setting = Instance.new("ImageButton")
-local Credittab = Instance.new("ImageButton")
-local Tabs = Instance.new("Frame")
-local Credits = Instance.new("Frame")
-local credittext = Instance.new("TextLabel")
-local head = Instance.new("ScrollingFrame")
-local no = Instance.new("TextLabel")
-local blazeLogo = Instance.new("ImageLabel")
-local UIPadding_2 = Instance.new("UIPadding")
-local ImageLabel = Instance.new("ImageLabel")
-local ImageLabel_2 = Instance.new("ImageLabel")
-local UIListLayout = Instance.new("UIListLayout")
-local noooonvm = Instance.new("TextLabel")
-local blazeLogo_2 = Instance.new("ImageLabel")
-local UIPadding_3 = Instance.new("UIPadding")
-local UIPadding_4 = Instance.new("UIPadding")
-local ImageLabel_3 = Instance.new("ImageLabel")
-local TextLabel = Instance.new("TextLabel")
-local TextLabel_2 = Instance.new("TextLabel")
-local TextLabel_3 = Instance.new("TextLabel")
-local TextLabel_4 = Instance.new("TextLabel")
-local ImageLabel_4 = Instance.new("ImageLabel")
-local changelogtext = Instance.new("TextLabel")
-local ScrollingFrame = Instance.new("ScrollingFrame")
-local UIListLayout_2 = Instance.new("UIListLayout")
-local TextLabel_5 = Instance.new("TextLabel")
-local Discord = Instance.new("ImageButton")
+local run = Instance.new("TextButton")
 local UICorner_2 = Instance.new("UICorner")
-local Exe = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint")
+local back = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
-local EXEbox = Instance.new("TextBox")
-local execute = Instance.new("TextButton")
-local clear = Instance.new("TextButton")
-local clipboard = Instance.new("TextButton")
-local copy = Instance.new("TextButton")
-local TextLabel_6 = Instance.new("TextLabel")
-local Scripts = Instance.new("Frame")
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local Loadeditor = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
-local Title = Instance.new("TextLabel")
-local script8 = Instance.new("TextButton")
-local script9 = Instance.new("TextButton")
-local script0 = Instance.new("TextButton")
-local script01 = Instance.new("TextButton")
-local script2 = Instance.new("TextButton")
-local script3 = Instance.new("TextButton")
-local script4 = Instance.new("TextButton")
-local script7 = Instance.new("TextButton")
-local script6 = Instance.new("TextButton")
-local script999 = Instance.new("TextButton")
-local icon = Instance.new("ImageButton")
-local x = Instance.new("ImageButton")
-local ccc = Instance.new("ImageButton")
+local UITextSizeConstraint_4 = Instance.new("UITextSizeConstraint")
+local Execute = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local TextLabel_2 = Instance.new("TextLabel")
+local UITextSizeConstraint_5 = Instance.new("UITextSizeConstraint")
+local UITextSizeConstraint_6 = Instance.new("UITextSizeConstraint")
+local Clear = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UITextSizeConstraint_7 = Instance.new("UITextSizeConstraint")
+local executorframe = Instance.new("Frame")
+local text1 = Instance.new("TextBox")
+local UITextSizeConstraint_8 = Instance.new("UITextSizeConstraint")
+local TextBox = Instance.new("TextBox")
+local UICorner_7 = Instance.new("UICorner")
+local UITextSizeConstraint_9 = Instance.new("UITextSizeConstraint")
+local plus = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local UITextSizeConstraint_10 = Instance.new("UITextSizeConstraint")
+local Frame = Instance.new("Frame")
+local UIListLayout = Instance.new("UIListLayout")
+local Folder = Instance.new("Folder")
+local Frame_2 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextButton = Instance.new("TextButton")
+local UICorner_9 = Instance.new("UICorner")
+local del = Instance.new("TextButton")
+local UICorner_10 = Instance.new("UICorner")
+local UICorner_11 = Instance.new("UICorner")
+local consolebutton = Instance.new("Frame")
+local back_2 = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Copy = Instance.new("TextButton")
+local UICorner_13 = Instance.new("UICorner")
+local TextLabel_4 = Instance.new("TextLabel")
+local Clear_2 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local UITextSizeConstraint_11 = Instance.new("UITextSizeConstraint")
+local mainbutton = Instance.new("Frame")
+local Settings = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UITextSizeConstraint_12 = Instance.new("UITextSizeConstraint")
+local Executor = Instance.new("TextButton")
+local UICorner_16 = Instance.new("UICorner")
+local UITextSizeConstraint_13 = Instance.new("UITextSizeConstraint")
+local Console = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UITextSizeConstraint_14 = Instance.new("UITextSizeConstraint")
+local Cloud = Instance.new("TextButton")
+local UITextSizeConstraint_15 = Instance.new("UITextSizeConstraint")
+local UICorner_18 = Instance.new("UICorner")
+local close = Instance.new("ImageButton")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local cloudbutton = Instance.new("Frame")
+local back_3 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UITextSizeConstraint_16 = Instance.new("UITextSizeConstraint")
+local Clear_3 = Instance.new("TextButton")
+local UICorner_20 = Instance.new("UICorner")
+local UITextSizeConstraint_17 = Instance.new("UITextSizeConstraint")
+local TextBox_2 = Instance.new("TextBox")
+local UICorner_21 = Instance.new("UICorner")
+local UITextSizeConstraint_18 = Instance.new("UITextSizeConstraint")
+local ScrollingFrame = Instance.new("ScrollingFrame")
+local UIGridLayout = Instance.new("UIGridLayout")
+local Folder_2 = Instance.new("Folder")
+local Frame_3 = Instance.new("Frame")
+local UICorner_22 = Instance.new("UICorner")
+local ImageLabel = Instance.new("ImageLabel")
+local load = Instance.new("TextButton")
+local UICorner_23 = Instance.new("UICorner")
+local UITextSizeConstraint_19 = Instance.new("UITextSizeConstraint")
+local TextLabel_5 = Instance.new("TextLabel")
+local open = Instance.new("Frame")
+local UICorner_24 = Instance.new("UICorner")
+local ImageButton = Instance.new("ImageButton")
+local UICorner_25 = Instance.new("UICorner")
 
 --Properties:
 
-Main.Parent = game.CoreGui
+Newfluxsos.Name = "Newfluxsos"
+Newfluxsos.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+Newfluxsos.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-Holder.Name = "Holder"
-Holder.Parent = Main
-Holder.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Holder.BackgroundTransparency = 1.000
-Holder.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Holder.BorderSizePixel = 0
-Holder.Size = UDim2.new(1, 0, 1, 0)
+main.Name = "main"
+main.Parent = Newfluxsos
+main.Active = true
+main.BackgroundColor3 = Color3.fromRGB(17, 16, 17)
+main.BackgroundTransparency = 0.600
+main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+main.BorderSizePixel = 0
+main.Position = UDim2.new(-5, 0, 0, 0)
+main.Size = UDim2.new(1.03412247, 0, 0.998622596, 0)
 
-TabsButton.Name = "TabsButton"
-TabsButton.Parent = Holder
-TabsButton.AnchorPoint = Vector2.new(0.5, 0.5)
-TabsButton.BackgroundColor3 = Color3.fromRGB(74, 76, 75)
-TabsButton.BackgroundTransparency = 0.080
-TabsButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TabsButton.BorderSizePixel = 0
-TabsButton.Position = UDim2.new(0.514084518, 0, 0.69442898, 0)
-TabsButton.Size = UDim2.new(0.300000012, 0, 0.100000001, 0)
-TabsButton.Visible = false
+left.Name = "left"
+left.Parent = main
+left.BackgroundColor3 = Color3.fromRGB(44, 48, 51)
+left.BorderColor3 = Color3.fromRGB(0, 0, 0)
+left.BorderSizePixel = 0
+left.Size = UDim2.new(0.206228957, 0, 1.11295903, 0)
 
-UICorner.CornerRadius = UDim.new(0.600000024, 0)
-UICorner.Parent = TabsButton
+executebutton.Name = "executebutton"
+executebutton.Parent = left
+executebutton.BackgroundColor3 = Color3.fromRGB(44, 48, 51)
+executebutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+executebutton.BorderSizePixel = 0
+executebutton.Position = UDim2.new(0.0326530598, 0, 0.214700207, 0)
+executebutton.Size = UDim2.new(0.930612266, 0, 0.704862237, 0)
+executebutton.Visible = false
 
-EXEtab.Name = "EXEtab"
-EXEtab.Parent = TabsButton
-EXEtab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-EXEtab.BackgroundTransparency = 1.000
-EXEtab.BorderColor3 = Color3.fromRGB(0, 0, 0)
-EXEtab.BorderSizePixel = 0
-EXEtab.Position = UDim2.new(0.0652929321, 0, -0.030950224, 0)
-EXEtab.Size = UDim2.new(0.200000003, 0, 1, 0)
-EXEtab.Image = "rbxassetid://17367977443"
+UICorner.Parent = executebutton
 
-UIPadding.Parent = TabsButton
-UIPadding.PaddingBottom = UDim.new(0.0500000007, 0)
-UIPadding.PaddingLeft = UDim.new(0.0500000007, 0)
-UIPadding.PaddingRight = UDim.new(0.0500000007, 0)
-UIPadding.PaddingTop = UDim.new(0.0500000007, 0)
+run.Name = "run"
+run.Parent = executebutton
+run.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+run.BorderColor3 = Color3.fromRGB(0, 0, 0)
+run.BorderSizePixel = 0
+run.Position = UDim2.new(0.0592503995, 0, 0.482420385, 0)
+run.Size = UDim2.new(0.877192974, 0, 0.0879120827, 0)
+run.Font = Enum.Font.SourceSansBold
+run.Text = "Run"
+run.TextColor3 = Color3.fromRGB(255, 255, 255)
+run.TextScaled = true
+run.TextSize = 25.000
+run.TextWrapped = true
 
-setting.Name = "setting"
-setting.Parent = TabsButton
-setting.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-setting.BackgroundTransparency = 1.000
-setting.BorderColor3 = Color3.fromRGB(0, 0, 0)
-setting.BorderSizePixel = 0
-setting.Position = UDim2.new(0.604329705, 0, -0.0309497528, 0)
-setting.Size = UDim2.new(0.200000003, 0, 1, 0)
-setting.Image = "rbxassetid://17367944836"
+UICorner_2.Parent = run
 
-Credittab.Name = "Credittab"
-Credittab.Parent = TabsButton
-Credittab.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Credittab.BackgroundTransparency = 1.000
-Credittab.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Credittab.BorderSizePixel = 0
-Credittab.Position = UDim2.new(0.358154595, 0, -0.0618999191, 0)
-Credittab.Size = UDim2.new(0, 34, 0, 32)
-Credittab.Image = "rbxassetid://17296923750"
-
-Tabs.Name = "Tabs"
-Tabs.Parent = Holder
-Tabs.AnchorPoint = Vector2.new(0.5, 0.5)
-Tabs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Tabs.BackgroundTransparency = 1.000
-Tabs.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Tabs.BorderSizePixel = 0
-Tabs.Position = UDim2.new(0.5, 0, 0.300000012, 0)
-Tabs.Size = UDim2.new(0.300000012, 0, 0.5, 0)
-
-Credits.Name = "Credits"
-Credits.Parent = Tabs
-Credits.BackgroundColor3 = Color3.fromRGB(84, 84, 84)
-Credits.BackgroundTransparency = 0.090
-Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Credits.BorderSizePixel = 0
-Credits.Position = UDim2.new(-0.126227275, 0, -0.0389972143, 0)
-Credits.Size = UDim2.new(1.34092903, 0, 1.13634884, 0)
-Credits.Visible = false
-
-credittext.Name = "credittext"
-credittext.Parent = Credits
-credittext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-credittext.BackgroundTransparency = 1.000
-credittext.BorderColor3 = Color3.fromRGB(0, 0, 0)
-credittext.BorderSizePixel = 0
-credittext.Position = UDim2.new(0.0999999046, 0, 1.06258966e-08, 0)
-credittext.Size = UDim2.new(0.263366193, 0, 0.163155273, 0)
-credittext.Font = Enum.Font.Highway
-credittext.Text = "Credits"
-credittext.TextColor3 = Color3.fromRGB(255, 255, 255)
-credittext.TextSize = 14.000
-
-head.Name = "head"
-head.Parent = credittext
-head.Active = true
-head.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-head.BackgroundTransparency = 0.400
-head.BorderColor3 = Color3.fromRGB(0, 0, 0)
-head.BorderSizePixel = 0
-head.Position = UDim2.new(-0.148357973, 0, 0.811455607, 0)
-head.Size = UDim2.new(1.54631603, 0, 4.15172911, 0)
-
-no.Name = "no"
-no.Parent = head
-no.BackgroundColor3 = Color3.fromRGB(8, 230, 255)
-no.BackgroundTransparency = 1.000
-no.BorderColor3 = Color3.fromRGB(16, 211, 255)
-no.BorderSizePixel = 0
-no.Position = UDim2.new(-0.0128203547, 0, 0.737969875, 0)
-no.Size = UDim2.new(1.56216168, 0, 0.384748489, 0)
-no.Visible = false
-no.Font = Enum.Font.SourceSans
-no.Text = "Blaze - Founder"
-no.TextColor3 = Color3.fromRGB(14, 225, 248)
-no.TextSize = 14.000
-no.TextXAlignment = Enum.TextXAlignment.Right
-
-blazeLogo.Name = "blazeLogo"
-blazeLogo.Parent = no
-blazeLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-blazeLogo.BorderColor3 = Color3.fromRGB(0, 0, 0)
-blazeLogo.BorderSizePixel = 0
-blazeLogo.Size = UDim2.new(0.300000012, 0, 1, 0)
-blazeLogo.Image = "rbxassetid://17305130057"
-
-UIPadding_2.Parent = no
-UIPadding_2.PaddingBottom = UDim.new(0.100000001, 0)
-UIPadding_2.PaddingRight = UDim.new(0.100000001, 0)
-UIPadding_2.PaddingTop = UDim.new(0.100000001, 0)
-
-ImageLabel.Parent = no
-ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel.BorderSizePixel = 0
-ImageLabel.Size = UDim2.new(0, 100, 0, 100)
-ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-
-ImageLabel_2.Parent = no
-ImageLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_2.BorderSizePixel = 0
-ImageLabel_2.Size = UDim2.new(0, 100, 0, 100)
-ImageLabel_2.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
-
-UIListLayout.Parent = head
-UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout.Padding = UDim.new(0.0500000007, 0)
-
-noooonvm.Name = "noooonvm"
-noooonvm.Parent = head
-noooonvm.BackgroundColor3 = Color3.fromRGB(8, 230, 255)
-noooonvm.BackgroundTransparency = 1.000
-noooonvm.BorderColor3 = Color3.fromRGB(16, 211, 255)
-noooonvm.BorderSizePixel = 0
-noooonvm.Position = UDim2.new(1.95626072e-07, 0, 0.4536708, 0)
-noooonvm.Size = UDim2.new(1, 0, 0.200000003, 0)
-noooonvm.Visible = false
-noooonvm.Font = Enum.Font.SourceSans
-noooonvm.Text = "Michal - Head Dev"
-noooonvm.TextColor3 = Color3.fromRGB(14, 225, 248)
-noooonvm.TextSize = 14.000
-noooonvm.TextXAlignment = Enum.TextXAlignment.Right
-
-blazeLogo_2.Name = "blazeLogo"
-blazeLogo_2.Parent = noooonvm
-blazeLogo_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-blazeLogo_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-blazeLogo_2.BorderSizePixel = 0
-blazeLogo_2.Size = UDim2.new(0.300000012, 0, 1, 0)
-blazeLogo_2.Image = "rbxassetid://17305130057"
-
-UIPadding_3.Parent = noooonvm
-UIPadding_3.PaddingBottom = UDim.new(0.100000001, 0)
-UIPadding_3.PaddingRight = UDim.new(0.100000001, 0)
-UIPadding_3.PaddingTop = UDim.new(0.100000001, 0)
-
-UIPadding_4.Parent = head
-UIPadding_4.PaddingBottom = UDim.new(0.100000001, 0)
-UIPadding_4.PaddingRight = UDim.new(0.100000001, 0)
-UIPadding_4.PaddingTop = UDim.new(0.100000001, 0)
-
-ImageLabel_3.Parent = head
-ImageLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_3.BackgroundTransparency = 1.000
-ImageLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_3.BorderSizePixel = 0
-ImageLabel_3.Position = UDim2.new(1.45145208e-07, 0, -4.31393765e-08, 0)
-ImageLabel_3.Size = UDim2.new(0, 29, 0, 24)
-ImageLabel_3.Image = "rbxassetid://17305130057"
-
-TextLabel.Parent = ImageLabel_3
+TextLabel.Parent = run
 TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.BackgroundTransparency = 1.000
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(1.21655166, 0, 0, 0)
-TextLabel.Size = UDim2.new(0, 52, 0, 17)
-TextLabel.Font = Enum.Font.Kalam
-TextLabel.Text = "Blaze"
-TextLabel.TextColor3 = Color3.fromRGB(20, 255, 255)
-TextLabel.TextSize = 14.000
+TextLabel.Position = UDim2.new(0, 0, -0.774999976, 0)
+TextLabel.Size = UDim2.new(0, 200, 0, 21)
+TextLabel.Font = Enum.Font.SourceSansBold
+TextLabel.Text = "Script Editor"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 20.000
+TextLabel.TextWrapped = true
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_2.Parent = ImageLabel_3
+UITextSizeConstraint.Parent = TextLabel
+UITextSizeConstraint.MaxTextSize = 20
+
+UITextSizeConstraint_2.Parent = run
+UITextSizeConstraint_2.MaxTextSize = 25
+
+back.Name = "back"
+back.Parent = executebutton
+back.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+back.BorderColor3 = Color3.fromRGB(0, 0, 0)
+back.BorderSizePixel = 0
+back.Position = UDim2.new(0.0592503995, 0, 0, 0)
+back.Size = UDim2.new(0.877192974, 0, 0.0879120827, 0)
+back.Font = Enum.Font.SourceSansBold
+back.Text = "< Back"
+back.TextColor3 = Color3.fromRGB(255, 255, 255)
+back.TextScaled = true
+back.TextSize = 25.000
+back.TextWrapped = true
+
+UICorner_3.Parent = back
+
+UITextSizeConstraint_3.Parent = back
+UITextSizeConstraint_3.MaxTextSize = 25
+
+Loadeditor.Name = "Loadeditor"
+Loadeditor.Parent = executebutton
+Loadeditor.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+Loadeditor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Loadeditor.BorderSizePixel = 0
+Loadeditor.Position = UDim2.new(0.0570175648, 0, 0.593406618, 0)
+Loadeditor.Size = UDim2.new(0.877192974, 0, 0.0879120827, 0)
+Loadeditor.Font = Enum.Font.SourceSansBold
+Loadeditor.Text = "Load Into Editor"
+Loadeditor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Loadeditor.TextScaled = true
+Loadeditor.TextSize = 25.000
+Loadeditor.TextWrapped = true
+
+UICorner_4.Parent = Loadeditor
+
+UITextSizeConstraint_4.Parent = Loadeditor
+UITextSizeConstraint_4.MaxTextSize = 25
+
+Execute.Name = "Execute"
+Execute.Parent = executebutton
+Execute.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+Execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.0592503995, 0, 0.190400541, 0)
+Execute.Size = UDim2.new(0.877192974, 0, 0.0879120827, 0)
+Execute.Font = Enum.Font.SourceSansBold
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextScaled = true
+Execute.TextSize = 25.000
+Execute.TextWrapped = true
+
+UICorner_5.Parent = Execute
+
+TextLabel_2.Parent = Execute
 TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_2.BackgroundTransparency = 1.000
 TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(1.20827615, 0, 0.708333313, 0)
-TextLabel_2.Size = UDim2.new(0, 64, 0, 12)
-TextLabel_2.Font = Enum.Font.PatrickHand
-TextLabel_2.Text = "Founder & Head Dev"
-TextLabel_2.TextColor3 = Color3.fromRGB(73, 54, 167)
-TextLabel_2.TextSize = 14.000
+TextLabel_2.Position = UDim2.new(0, 0, -0.774999976, 0)
+TextLabel_2.Size = UDim2.new(0, 200, 0, 21)
+TextLabel_2.Font = Enum.Font.SourceSansBold
+TextLabel_2.Text = "Script Editor"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 20.000
+TextLabel_2.TextWrapped = true
+TextLabel_2.TextXAlignment = Enum.TextXAlignment.Left
 
-TextLabel_3.Parent = ImageLabel_3
+UITextSizeConstraint_5.Parent = TextLabel_2
+UITextSizeConstraint_5.MaxTextSize = 20
+
+UITextSizeConstraint_6.Parent = Execute
+UITextSizeConstraint_6.MaxTextSize = 25
+
+Clear.Name = "Clear"
+Clear.Parent = executebutton
+Clear.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+Clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clear.BorderSizePixel = 0
+Clear.Position = UDim2.new(0.0592503995, 0, 0.305677205, 0)
+Clear.Size = UDim2.new(0.877192974, 0, 0.0879120827, 0)
+Clear.Font = Enum.Font.SourceSansBold
+Clear.Text = "Clear"
+Clear.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear.TextScaled = true
+Clear.TextSize = 25.000
+Clear.TextWrapped = true
+
+UICorner_6.Parent = Clear
+
+UITextSizeConstraint_7.Parent = Clear
+UITextSizeConstraint_7.MaxTextSize = 25
+
+executorframe.Name = "executorframe"
+executorframe.Parent = executebutton
+executorframe.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+executorframe.BackgroundTransparency = 1.000
+executorframe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+executorframe.BorderSizePixel = 0
+executorframe.Position = UDim2.new(1.09649122, 0, -0.21758242, 0)
+executorframe.Size = UDim2.new(3.89912271, 0, 1.19999993, 0)
+
+text1.Name = "text1"
+text1.Parent = executorframe
+text1.BackgroundColor3 = Color3.fromRGB(17, 16, 17)
+text1.BackgroundTransparency = 0.990
+text1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+text1.BorderSizePixel = 0
+text1.ClipsDescendants = true
+text1.Position = UDim2.new(0, 0, 0.125410035, 0)
+text1.Size = UDim2.new(0.977502823, 0, 0.866300344, 0)
+text1.Font = Enum.Font.SourceSans
+text1.MultiLine = true
+text1.PlaceholderText = "--[[\\nscript 1\\Remake by Blaze\\n]]--"
+text1.Text = ""
+text1.TextColor3 = Color3.fromRGB(255, 255, 255)
+text1.TextScaled = true
+text1.TextSize = 20.000
+text1.TextWrapped = true
+text1.TextXAlignment = Enum.TextXAlignment.Left
+text1.TextYAlignment = Enum.TextYAlignment.Top
+
+UITextSizeConstraint_8.Parent = text1
+UITextSizeConstraint_8.MaxTextSize = 20
+
+TextBox.Parent = executorframe
+TextBox.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+TextBox.BorderColor3 = Color3.fromRGB(102, 60, 232)
+TextBox.BorderSizePixel = 0
+TextBox.Size = UDim2.new(0.129999995, 0, 0.0710000023, 0)
+TextBox.Font = Enum.Font.SourceSansBold
+TextBox.PlaceholderColor3 = Color3.fromRGB(255, 255, 255)
+TextBox.PlaceholderText = "script1"
+TextBox.ShowNativeInput = false
+TextBox.Text = ""
+TextBox.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextBox.TextSize = 20.000
+
+UICorner_7.Parent = TextBox
+
+UITextSizeConstraint_9.Parent = TextBox
+UITextSizeConstraint_9.MaxTextSize = 22
+
+plus.Name = "plus"
+plus.Parent = TextBox
+plus.BackgroundColor3 = Color3.fromRGB(45, 46, 51)
+plus.BorderColor3 = Color3.fromRGB(0, 0, 0)
+plus.BorderSizePixel = 0
+plus.Position = UDim2.new(1.06077147, 0, 0, 0)
+plus.Size = UDim2.new(0.336206883, 0, 1, 0)
+plus.Font = Enum.Font.SourceSansBold
+plus.Text = "+"
+plus.TextColor3 = Color3.fromRGB(255, 255, 255)
+plus.TextScaled = true
+plus.TextSize = 22.000
+plus.TextWrapped = true
+
+UICorner_8.Parent = plus
+
+UITextSizeConstraint_10.Parent = plus
+UITextSizeConstraint_10.MaxTextSize = 38
+
+Frame.Parent = executorframe
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BackgroundTransparency = 0.990
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0.824521959, 0, -5.58930005e-08, 0)
+Frame.Size = UDim2.new(0.152980879, 0, 0.98901099, 0)
+
+UIListLayout.Parent = Frame
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIListLayout.Padding = UDim.new(0, 5)
+
+Folder.Parent = Frame
+
+Frame_2.Parent = Folder
+Frame_2.BackgroundColor3 = Color3.fromRGB(45, 46, 51)
+Frame_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_2.BorderSizePixel = 0
+Frame_2.Size = UDim2.new(1, 0, 0.118518516, 0)
+Frame_2.Visible = false
+
+TextLabel_3.Parent = Frame_2
 TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_3.BackgroundTransparency = 1.000
 TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(1.22344863, 0, 2.24999976, 0)
-TextLabel_3.Size = UDim2.new(0, 52, 0, 12)
-TextLabel_3.Font = Enum.Font.PatrickHand
-TextLabel_3.Text = "Michal"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 247, 8)
-TextLabel_3.TextSize = 14.000
+TextLabel_3.Position = UDim2.new(0.338235319, 0, -0.0118055344, 0)
+TextLabel_3.Size = UDim2.new(0, 43, 0, 13)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "script"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 20.000
 
-TextLabel_4.Parent = ImageLabel_3
+TextButton.Parent = Frame_2
+TextButton.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+TextButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.58088237, 0, 0.484375, 0)
+TextButton.Size = UDim2.new(0, 40, 0, 33)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Load"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextSize = 14.000
+
+UICorner_9.Parent = TextButton
+
+del.Name = "del"
+del.Parent = Frame_2
+del.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+del.BorderColor3 = Color3.fromRGB(0, 0, 0)
+del.BorderSizePixel = 0
+del.Position = UDim2.new(0.139705911, 0, 0.484375, 0)
+del.Size = UDim2.new(0, 40, 0, 33)
+del.Font = Enum.Font.SourceSansBold
+del.Text = "delete"
+del.TextColor3 = Color3.fromRGB(255, 255, 255)
+del.TextSize = 14.000
+
+UICorner_10.Parent = del
+
+UICorner_11.Parent = Frame_2
+
+consolebutton.Name = "consolebutton"
+consolebutton.Parent = left
+consolebutton.BackgroundColor3 = Color3.fromRGB(44, 48, 51)
+consolebutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+consolebutton.BorderSizePixel = 0
+consolebutton.Position = UDim2.new(0.0326530598, 0, 0.214700192, 0)
+consolebutton.Size = UDim2.new(0.930612266, 0, 0.615011632, 0)
+consolebutton.Visible = false
+
+back_2.Name = "back"
+back_2.Parent = consolebutton
+back_2.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+back_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+back_2.BorderSizePixel = 0
+back_2.Position = UDim2.new(0.0592503995, 0, 0, 0)
+back_2.Size = UDim2.new(0.877192974, 0, 0.100755669, 0)
+back_2.Font = Enum.Font.SourceSansBold
+back_2.Text = "< Back"
+back_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+back_2.TextSize = 25.000
+
+UICorner_12.Parent = back_2
+
+Copy.Name = "Copy"
+Copy.Parent = consolebutton
+Copy.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+Copy.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Copy.BorderSizePixel = 0
+Copy.Position = UDim2.new(0.0592503995, 0, 0.319899261, 0)
+Copy.Size = UDim2.new(0.877192974, 0, 0.100755669, 0)
+Copy.Font = Enum.Font.SourceSansBold
+Copy.Text = "Copy"
+Copy.TextColor3 = Color3.fromRGB(255, 255, 255)
+Copy.TextSize = 25.000
+
+UICorner_13.Parent = Copy
+
+TextLabel_4.Parent = Copy
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.BackgroundTransparency = 1.000
 TextLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_4.BorderSizePixel = 0
-TextLabel_4.Position = UDim2.new(1.20852876, 0, 2.89880872, 0)
-TextLabel_4.Size = UDim2.new(0, 64, 0, 10)
-TextLabel_4.Font = Enum.Font.PatrickHand
-TextLabel_4.Text = "CO-Founder & Dev"
-TextLabel_4.TextColor3 = Color3.fromRGB(17, 136, 92)
-TextLabel_4.TextSize = 14.000
+TextLabel_4.Position = UDim2.new(0, 0, -0.875, 0)
+TextLabel_4.Size = UDim2.new(1, 0, 0.725000024, 0)
+TextLabel_4.Font = Enum.Font.SourceSansBold
+TextLabel_4.Text = "Console settings"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 22.000
+TextLabel_4.TextWrapped = true
+TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
 
-ImageLabel_4.Parent = ImageLabel_3
-ImageLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ImageLabel_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ImageLabel_4.BorderSizePixel = 0
-ImageLabel_4.Position = UDim2.new(-0.0799999982, 0, 2.28571439, 0)
-ImageLabel_4.Size = UDim2.new(0, 30, 0, 25)
-ImageLabel_4.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+Clear_2.Name = "Clear"
+Clear_2.Parent = consolebutton
+Clear_2.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+Clear_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clear_2.BorderSizePixel = 0
+Clear_2.Position = UDim2.new(0.0592503995, 0, 0.448362738, 0)
+Clear_2.Size = UDim2.new(0.877192974, 0, 0.100755669, 0)
+Clear_2.Font = Enum.Font.SourceSansBold
+Clear_2.Text = "Clear"
+Clear_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear_2.TextSize = 25.000
 
-changelogtext.Name = "changelogtext"
-changelogtext.Parent = Credits
-changelogtext.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-changelogtext.BackgroundTransparency = 1.000
-changelogtext.BorderColor3 = Color3.fromRGB(0, 0, 0)
-changelogtext.BorderSizePixel = 0
-changelogtext.Position = UDim2.new(0.601862013, 0, -0.0222841203, 0)
-changelogtext.Size = UDim2.new(0.271902204, 0, 0.185439408, 0)
-changelogtext.Font = Enum.Font.Highway
-changelogtext.Text = "Change logs"
-changelogtext.TextColor3 = Color3.fromRGB(255, 255, 255)
-changelogtext.TextSize = 14.000
+UICorner_14.Parent = Clear_2
 
-ScrollingFrame.Parent = changelogtext
+UITextSizeConstraint_11.Parent = Clear_2
+UITextSizeConstraint_11.MaxTextSize = 25
+
+mainbutton.Name = "mainbutton"
+mainbutton.Parent = left
+mainbutton.BackgroundColor3 = Color3.fromRGB(44, 48, 51)
+mainbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+mainbutton.BorderSizePixel = 0
+mainbutton.Position = UDim2.new(0.0326530598, 0, 0.214700192, 0)
+mainbutton.Size = UDim2.new(0.930612266, 0, 0.684482753, 0)
+
+Settings.Name = "Settings"
+Settings.Parent = mainbutton
+Settings.BackgroundColor3 = Color3.fromRGB(71, 69, 73)
+Settings.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Settings.BorderSizePixel = 0
+Settings.Position = UDim2.new(0.0219298247, 0, 0.365239292, 0)
+Settings.Size = UDim2.new(0.973684192, 0, 0.100755669, 0)
+Settings.Font = Enum.Font.SourceSansBold
+Settings.Text = "Settings (soon)"
+Settings.TextColor3 = Color3.fromRGB(255, 255, 255)
+Settings.TextScaled = true
+Settings.TextSize = 20.000
+Settings.TextWrapped = true
+
+UICorner_15.Parent = Settings
+
+UITextSizeConstraint_12.Parent = Settings
+UITextSizeConstraint_12.MaxTextSize = 20
+
+Executor.Name = "Executor"
+Executor.Parent = mainbutton
+Executor.BackgroundColor3 = Color3.fromRGB(71, 69, 73)
+Executor.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Executor.BorderSizePixel = 0
+Executor.Position = UDim2.new(0.0219298247, 0, 0, 0)
+Executor.Size = UDim2.new(0.973684192, 0, 0.100755669, 0)
+Executor.Font = Enum.Font.SourceSansBold
+Executor.Text = "Executor"
+Executor.TextColor3 = Color3.fromRGB(255, 255, 255)
+Executor.TextScaled = true
+Executor.TextSize = 20.000
+Executor.TextWrapped = true
+
+UICorner_16.Parent = Executor
+
+UITextSizeConstraint_13.Parent = Executor
+UITextSizeConstraint_13.MaxTextSize = 20
+
+Console.Name = "Console"
+Console.Parent = mainbutton
+Console.BackgroundColor3 = Color3.fromRGB(71, 69, 73)
+Console.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Console.BorderSizePixel = 0
+Console.Position = UDim2.new(0.0219298247, 0, 0.246851385, 0)
+Console.Size = UDim2.new(0.973684192, 0, 0.100755669, 0)
+Console.Font = Enum.Font.SourceSansBold
+Console.Text = "Console"
+Console.TextColor3 = Color3.fromRGB(255, 255, 255)
+Console.TextScaled = true
+Console.TextSize = 20.000
+Console.TextWrapped = true
+
+UICorner_17.Parent = Console
+
+UITextSizeConstraint_14.Parent = Console
+UITextSizeConstraint_14.MaxTextSize = 20
+
+Cloud.Name = "Cloud"
+Cloud.Parent = mainbutton
+Cloud.BackgroundColor3 = Color3.fromRGB(71, 69, 73)
+Cloud.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cloud.BorderSizePixel = 0
+Cloud.Position = UDim2.new(0.0219298247, 0, 0.123425692, 0)
+Cloud.Size = UDim2.new(0.973684192, 0, 0.100755669, 0)
+Cloud.Font = Enum.Font.SourceSansBold
+Cloud.Text = "Cloud"
+Cloud.TextColor3 = Color3.fromRGB(255, 255, 255)
+Cloud.TextScaled = true
+Cloud.TextSize = 20.000
+Cloud.TextWrapped = true
+
+UITextSizeConstraint_15.Parent = Cloud
+UITextSizeConstraint_15.MaxTextSize = 20
+
+UICorner_18.Parent = Cloud
+
+close.Name = "close"
+close.Parent = left
+close.BackgroundColor3 = Color3.fromRGB(44, 48, 51)
+close.BorderColor3 = Color3.fromRGB(44, 48, 51)
+close.Position = UDim2.new(0.326163262, 0, 0.0304482765, 0)
+close.Size = UDim2.new(0.342857152, 0, 0.131034479, 0)
+close.Image = "rbxassetid://13945092962"
+
+UIAspectRatioConstraint.Parent = close
+UIAspectRatioConstraint.AspectRatio = 0.993
+
+cloudbutton.Name = "cloudbutton"
+cloudbutton.Parent = left
+cloudbutton.BackgroundColor3 = Color3.fromRGB(44, 48, 51)
+cloudbutton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+cloudbutton.BorderSizePixel = 0
+cloudbutton.Position = UDim2.new(0.0326530598, 0, 0.214700192, 0)
+cloudbutton.Size = UDim2.new(0.930612266, 0, 0.615011632, 0)
+cloudbutton.Visible = false
+
+back_3.Name = "back"
+back_3.Parent = cloudbutton
+back_3.BackgroundColor3 = Color3.fromRGB(26, 26, 26)
+back_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+back_3.BorderSizePixel = 0
+back_3.Position = UDim2.new(0.0592503995, 0, 0, 0)
+back_3.Size = UDim2.new(0.877192974, 0, 0.100755669, 0)
+back_3.Font = Enum.Font.SourceSansBold
+back_3.Text = "< Back"
+back_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+back_3.TextScaled = true
+back_3.TextSize = 25.000
+back_3.TextWrapped = true
+
+UICorner_19.Parent = back_3
+
+UITextSizeConstraint_16.Parent = back_3
+UITextSizeConstraint_16.MaxTextSize = 25
+
+Clear_3.Name = "Clear"
+Clear_3.Parent = cloudbutton
+Clear_3.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+Clear_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Clear_3.BorderSizePixel = 0
+Clear_3.Position = UDim2.new(0.0592503995, 0, 0.314861476, 0)
+Clear_3.Size = UDim2.new(0.877192974, 0, 0.100755669, 0)
+Clear_3.Font = Enum.Font.SourceSansBold
+Clear_3.Text = "Search"
+Clear_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Clear_3.TextSize = 25.000
+
+UICorner_20.Parent = Clear_3
+
+UITextSizeConstraint_17.Parent = Clear_3
+UITextSizeConstraint_17.MaxTextSize = 25
+
+TextBox_2.Parent = cloudbutton
+TextBox_2.BackgroundColor3 = Color3.fromRGB(70, 70, 70)
+TextBox_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextBox_2.BorderSizePixel = 0
+TextBox_2.Position = UDim2.new(0.0614035092, 0, 0.193954661, 0)
+TextBox_2.Size = UDim2.new(0.877192974, 0, 0.0982367769, 0)
+TextBox_2.Font = Enum.Font.SourceSans
+TextBox_2.PlaceholderText = "FINDER"
+TextBox_2.Text = ""
+TextBox_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextBox_2.TextScaled = true
+TextBox_2.TextSize = 14.000
+TextBox_2.TextWrapped = true
+
+UICorner_21.Parent = TextBox_2
+
+UITextSizeConstraint_18.Parent = TextBox_2
+UITextSizeConstraint_18.MaxTextSize = 14
+
+ScrollingFrame.Parent = cloudbutton
 ScrollingFrame.Active = true
-ScrollingFrame.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-ScrollingFrame.BackgroundTransparency = 0.400
+ScrollingFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ScrollingFrame.BackgroundTransparency = 0.990
 ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ScrollingFrame.BorderSizePixel = 0
-ScrollingFrame.Position = UDim2.new(-0.230803907, 0, 0.834112465, 0)
-ScrollingFrame.Size = UDim2.new(1.44127738, 0, 3.21264911, 0)
+ScrollingFrame.Position = UDim2.new(1.22368419, 0, -0.261964738, 0)
+ScrollingFrame.Size = UDim2.new(3.60087729, 0, 1.28463471, 0)
+ScrollingFrame.CanvasSize = UDim2.new(0, 0, 3.9000001, 0)
 
-UIListLayout_2.Parent = ScrollingFrame
-UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
-UIListLayout_2.Padding = UDim.new(0.00999999978, 0)
+UIGridLayout.Parent = ScrollingFrame
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder
+UIGridLayout.CellPadding = UDim2.new(0, 10, 0, 10)
+UIGridLayout.CellSize = UDim2.new(0, 262, 0, 218)
 
-TextLabel_5.Parent = ScrollingFrame
+Folder_2.Parent = ScrollingFrame
+
+Frame_3.Parent = Folder_2
+Frame_3.BackgroundColor3 = Color3.fromRGB(44, 48, 51)
+Frame_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(0, 0, 0.0142092062, 0)
+Frame_3.Size = UDim2.new(0.31912303, 0, 0.427451015, 0)
+Frame_3.Visible = false
+
+UICorner_22.Parent = Frame_3
+
+ImageLabel.Parent = Frame_3
+ImageLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageLabel.BorderSizePixel = 0
+ImageLabel.Position = UDim2.new(0.236641213, 0, 0.114678897, 0)
+ImageLabel.Size = UDim2.new(0.52290076, 0, 0.17980653, 0)
+ImageLabel.Image = "rbxasset://textures/ui/GuiImagePlaceholder.png"
+
+load.Name = "load"
+load.Parent = Frame_3
+load.BackgroundColor3 = Color3.fromRGB(102, 60, 232)
+load.BorderColor3 = Color3.fromRGB(0, 0, 0)
+load.BorderSizePixel = 0
+load.Position = UDim2.new(0.385496199, 0, 0.700182319, 0)
+load.Size = UDim2.new(0.218886033, 0, 0.247544661, 0)
+load.Font = Enum.Font.SourceSansBold
+load.Text = "Load"
+load.TextColor3 = Color3.fromRGB(255, 255, 255)
+load.TextSize = 25.000
+
+UICorner_23.Parent = load
+
+UITextSizeConstraint_19.Parent = load
+UITextSizeConstraint_19.MaxTextSize = 25
+
+TextLabel_5.Parent = Frame_3
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_5.BackgroundTransparency = 1.000
 TextLabel_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 TextLabel_5.BorderSizePixel = 0
-TextLabel_5.Position = UDim2.new(0, 0, 0.0801128522, 0)
-TextLabel_5.Size = UDim2.new(1, 0, 0.107501291, 0)
-TextLabel_5.Font = Enum.Font.Kalam
-TextLabel_5.Text = "Nothing Yet ;)"
+TextLabel_5.ClipsDescendants = true
+TextLabel_5.Position = UDim2.new(0.114503816, 0, 0, 0)
+TextLabel_5.Size = UDim2.new(0.763358772, 0, 0.0377744809, 0)
+TextLabel_5.Font = Enum.Font.SourceSansBold
 TextLabel_5.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_5.TextSize = 14.000
+TextLabel_5.TextSize = 20.000
 
-Discord.Name = "Discord"
-Discord.Parent = Credits
-Discord.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-Discord.BackgroundTransparency = 1.000
-Discord.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Discord.BorderSizePixel = 0
-Discord.Position = UDim2.new(0.829401672, 0, 0.840531826, 0)
-Discord.Size = UDim2.new(0, 25, 0, 21)
-Discord.Image = "rbxassetid://17310815265"
+open.Name = "open"
+open.Parent = Newfluxsos
+open.BackgroundColor3 = Color3.fromRGB(29, 31, 44)
+open.BorderColor3 = Color3.fromRGB(0, 0, 0)
+open.BorderSizePixel = 0
+open.Position = UDim2.new(0.00680735242, 0, 0.0464876071, 0)
+open.Size = UDim2.new(0, 59, 0, 57)
+open.Visible = false
 
-UICorner_2.CornerRadius = UDim.new(0.100000001, 0)
-UICorner_2.Parent = Credits
+UICorner_24.CornerRadius = UDim.new(1, 8)
+UICorner_24.Parent = open
 
-Exe.Name = "Exe"
-Exe.Parent = Tabs
-Exe.BackgroundColor3 = Color3.fromRGB(7, 96, 240)
-Exe.BackgroundTransparency = 0.090
-Exe.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Exe.BorderSizePixel = 0
-Exe.Position = UDim2.new(-0.126047432, 0, -0.0186416078, 0)
-Exe.Size = UDim2.new(1.33894348, 0, 1.13434756, 0)
-Exe.Visible = false
+ImageButton.Parent = open
+ImageButton.BackgroundColor3 = Color3.fromRGB(38, 40, 61)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Position = UDim2.new(0.0847457647, 0, 0.0701754391, 0)
+ImageButton.Size = UDim2.new(0, 48, 0, 49)
+ImageButton.Image = "rbxassetid://13945092962"
 
-UICorner_3.CornerRadius = UDim.new(0.100000001, 0)
-UICorner_3.Parent = Exe
-
-EXEbox.Name = "EXEbox"
-EXEbox.Parent = Exe
-EXEbox.BackgroundColor3 = Color3.fromRGB(76, 76, 76)
-EXEbox.BackgroundTransparency = 0.200
-EXEbox.BorderColor3 = Color3.fromRGB(0, 0, 0)
-EXEbox.BorderSizePixel = 0
-EXEbox.Position = UDim2.new(0.183206469, 0, 0.0592864826, 0)
-EXEbox.Size = UDim2.new(0, 182, 0, 86)
-EXEbox.Font = Enum.Font.SourceSans
-EXEbox.Text = ""
-EXEbox.TextColor3 = Color3.fromRGB(0, 0, 0)
-EXEbox.TextSize = 14.000
-
-execute.Name = "execute"
-execute.Parent = EXEbox
-execute.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
-execute.BorderSizePixel = 0
-execute.Position = UDim2.new(-0.0714515746, 0, 1.17381895, 0)
-execute.Size = UDim2.new(0, 43, 0, 11)
-execute.Font = Enum.Font.SourceSans
-execute.Text = "Execute"
-execute.TextColor3 = Color3.fromRGB(0, 0, 0)
-execute.TextSize = 14.000
-
-clear.Name = "clear"
-clear.Parent = EXEbox
-clear.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-clear.BorderColor3 = Color3.fromRGB(0, 0, 0)
-clear.BorderSizePixel = 0
-clear.Position = UDim2.new(0.370423377, 0, 1.16219115, 0)
-clear.Size = UDim2.new(0, 48, 0, 10)
-clear.Font = Enum.Font.SourceSans
-clear.Text = "Clear"
-clear.TextColor3 = Color3.fromRGB(0, 0, 0)
-clear.TextSize = 14.000
-
-clipboard.Name = "clipboard"
-clipboard.Parent = EXEbox
-clipboard.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-clipboard.BorderColor3 = Color3.fromRGB(0, 0, 0)
-clipboard.BorderSizePixel = 0
-clipboard.Position = UDim2.new(0.23526755, 0, 1.47601962, 0)
-clipboard.Size = UDim2.new(0, 97, 0, 13)
-clipboard.Font = Enum.Font.SourceSans
-clipboard.Text = "Execute clipboard"
-clipboard.TextColor3 = Color3.fromRGB(0, 0, 0)
-clipboard.TextSize = 14.000
-
-copy.Name = "copy"
-copy.Parent = EXEbox
-copy.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
-copy.BorderColor3 = Color3.fromRGB(0, 0, 0)
-copy.BorderSizePixel = 0
-copy.Position = UDim2.new(0.868847847, 0, 1.15199244, 0)
-copy.Size = UDim2.new(0, 49, 0, 10)
-copy.Font = Enum.Font.SourceSans
-copy.Text = "Copy"
-copy.TextColor3 = Color3.fromRGB(0, 0, 0)
-copy.TextSize = 14.000
-
-TextLabel_6.Parent = EXEbox
-TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_6.BackgroundTransparency = 1.000
-TextLabel_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.BorderSizePixel = 0
-TextLabel_6.Position = UDim2.new(-0.0529590659, 0, 1.61627913, 0)
-TextLabel_6.Size = UDim2.new(0, 200, 0, 50)
-TextLabel_6.Font = Enum.Font.SourceSans
-TextLabel_6.Text = "Comet_X"
-TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_6.TextSize = 14.000
-TextLabel_6.TextWrapped = true
-
-Scripts.Name = "Scripts"
-Scripts.Parent = Tabs
-Scripts.BackgroundColor3 = Color3.fromRGB(40, 255, 25)
-Scripts.BackgroundTransparency = 0.100
-Scripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Scripts.BorderSizePixel = 0
-Scripts.Position = UDim2.new(-0.1262272, 0, -0.0242126379, 0)
-Scripts.Size = UDim2.new(1.33714521, 0, 1.13434756, 0)
-Scripts.Visible = false
-
-UICorner_4.CornerRadius = UDim.new(0.0700000003, 0)
-UICorner_4.Parent = Scripts
-
-Title.Name = "Title"
-Title.Parent = Scripts
-Title.BackgroundColor3 = Color3.fromRGB(3, 255, 217)
-Title.BackgroundTransparency = 1.000
-Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Title.BorderSizePixel = 0
-Title.Position = UDim2.new(0.171187252, 0, -0.000367258646, 0)
-Title.Size = UDim2.new(0, 200, 0, 50)
-Title.Font = Enum.Font.PermanentMarker
-Title.Text = "Script Library"
-Title.TextColor3 = Color3.fromRGB(0, 33, 30)
-Title.TextSize = 14.000
-
-script8.Name = "script8"
-script8.Parent = Scripts
-script8.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script8.BorderSizePixel = 0
-script8.Position = UDim2.new(0.70620805, 0, 0.501866579, 0)
-script8.Size = UDim2.new(0, 73, 0, 14)
-script8.Font = Enum.Font.SourceSans
-script8.Text = "FE Animation"
-script8.TextColor3 = Color3.fromRGB(0, 0, 0)
-script8.TextSize = 14.000
-
-script9.Name = "script9"
-script9.Parent = Scripts
-script9.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script9.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script9.BorderSizePixel = 0
-script9.Position = UDim2.new(0.70620805, 0, 0.619273901, 0)
-script9.Size = UDim2.new(0, 73, 0, 14)
-script9.Font = Enum.Font.SourceSans
-script9.Text = "FE Animation"
-script9.TextColor3 = Color3.fromRGB(0, 0, 0)
-script9.TextSize = 14.000
-
-script0.Name = "script0"
-script0.Parent = Scripts
-script0.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script0.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script0.BorderSizePixel = 0
-script0.Position = UDim2.new(0.70620805, 0, 0.760161877, 0)
-script0.Size = UDim2.new(0, 73, 0, 14)
-script0.Font = Enum.Font.SourceSans
-script0.Text = "FE Animation"
-script0.TextColor3 = Color3.fromRGB(0, 0, 0)
-script0.TextSize = 14.000
-
-script01.Name = "script01"
-script01.Parent = Scripts
-script01.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script01.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script01.BorderSizePixel = 0
-script01.Position = UDim2.new(0.0189391933, 0, 0.617736518, 0)
-script01.Size = UDim2.new(0, 73, 0, 14)
-script01.Font = Enum.Font.SourceSans
-script01.Text = "FE Animation"
-script01.TextColor3 = Color3.fromRGB(0, 0, 0)
-script01.TextSize = 14.000
-
-script2.Name = "script2"
-script2.Parent = Scripts
-script2.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script2.BorderSizePixel = 0
-script2.Position = UDim2.new(0.0200006366, 0, 0.243444353, 0)
-script2.Size = UDim2.new(0, 73, 0, 14)
-script2.Font = Enum.Font.SourceSans
-script2.Text = "Inf yield"
-script2.TextColor3 = Color3.fromRGB(0, 0, 0)
-script2.TextSize = 14.000
-
-script3.Name = "script3"
-script3.Parent = Scripts
-script3.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script3.BorderSizePixel = 0
-script3.Position = UDim2.new(0.0168300737, 0, 0.501840293, 0)
-script3.Size = UDim2.new(0, 73, 0, 14)
-script3.Font = Enum.Font.SourceSans
-script3.Text = "FE Animation"
-script3.TextColor3 = Color3.fromRGB(0, 0, 0)
-script3.TextSize = 14.000
-
-script4.Name = "script4"
-script4.Parent = Scripts
-script4.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script4.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script4.BorderSizePixel = 0
-script4.Position = UDim2.new(0.0165110417, 0, 0.3765212, 0)
-script4.Size = UDim2.new(0, 73, 0, 14)
-script4.Font = Enum.Font.SourceSans
-script4.Text = "FE Animation"
-script4.TextColor3 = Color3.fromRGB(0, 0, 0)
-script4.TextSize = 14.000
-
-script7.Name = "script7"
-script7.Parent = Scripts
-script7.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script7.BorderSizePixel = 0
-script7.Position = UDim2.new(0.70620805, 0, 0.379059821, 0)
-script7.Size = UDim2.new(0, 73, 0, 14)
-script7.Font = Enum.Font.SourceSans
-script7.Text = "FE Animation"
-script7.TextColor3 = Color3.fromRGB(0, 0, 0)
-script7.TextSize = 14.000
-
-script6.Name = "script6"
-script6.Parent = Scripts
-script6.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script6.BorderSizePixel = 0
-script6.Position = UDim2.new(0.70620805, 0, 0.243327186, 0)
-script6.Size = UDim2.new(0, 73, 0, 14)
-script6.Font = Enum.Font.SourceSans
-script6.Text = "FE Animation"
-script6.TextColor3 = Color3.fromRGB(0, 0, 0)
-script6.TextSize = 14.000
-
-script999.Name = "script999"
-script999.Parent = Scripts
-script999.BackgroundColor3 = Color3.fromRGB(16, 100, 255)
-script999.BorderColor3 = Color3.fromRGB(0, 0, 0)
-script999.BorderSizePixel = 0
-script999.Position = UDim2.new(0.0165110417, 0, 0.759596407, 0)
-script999.Size = UDim2.new(0, 73, 0, 14)
-script999.Font = Enum.Font.SourceSans
-script999.Text = "FE Animation"
-script999.TextColor3 = Color3.fromRGB(0, 0, 0)
-script999.TextSize = 14.000
-
-icon.Name = "icon"
-icon.Parent = Holder
-icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-icon.BackgroundTransparency = 1.000
-icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
-icon.BorderSizePixel = 0
-icon.Position = UDim2.new(0.120870627, 0, 0.134540349, 0)
-icon.Size = UDim2.new(0, 68, 0, 74)
-icon.Image = "rbxassetid://17304571812"
-
-x.Name = "x"
-x.Parent = Holder
-x.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-x.BackgroundTransparency = 1.000
-x.BorderColor3 = Color3.fromRGB(0, 0, 0)
-x.BorderSizePixel = 0
-x.Position = UDim2.new(0.615430176, 0, 0.665484905, 0)
-x.Size = UDim2.new(0.0284436587, 0, 0.0560171306, 0)
-x.Visible = false
-x.Image = "rbxassetid://17298456944"
-
-ccc.Name = "ccc"
-ccc.Parent = Holder
-ccc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-ccc.BackgroundTransparency = 1.000
-ccc.BorderColor3 = Color3.fromRGB(0, 0, 0)
-ccc.BorderSizePixel = 0
-ccc.Position = UDim2.new(0.967179716, 0, -0.0023816037, 0)
-ccc.Size = UDim2.new(0.0537991002, 0, 0.089576371, 0)
-ccc.Visible = false
-ccc.Image = "rbxassetid://17296923750"
+UICorner_25.CornerRadius = UDim.new(1, 8)
+UICorner_25.Parent = ImageButton
 
 -- Scripts:
 
-local function XJOA_fake_script() -- EXEtab.LocalScript 
-	local script = Instance.new('LocalScript', EXEtab)
+local function ICPR_fake_script() -- run.LocalScript 
+	local script = Instance.new('LocalScript', run)
 
-	local credittab = script.Parent
-	local tabs = credittab.Parent.Parent:FindFirstChild("Tabs")
-	local credit = tabs:FindFirstChild("Credits")
-	local exe = tabs:FindFirstChild("Exe")
-	local scripts = tabs:FindFirstChild("Scripts")
-	credittab.MouseButton1Click:Connect(function()
-		credit.Visible = false
-		exe.Visible = true
-		scripts.Visible = false
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(getclipboard())
+	end)
+end
+coroutine.wrap(ICPR_fake_script)()
+local function FXTQKOR_fake_script() -- back.LocalScript 
+	local script = Instance.new('LocalScript', back)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.mainbutton.Visible = true
+		script.Parent.Parent.Parent.executebutton.Visible = false
+		script.Parent.Parent.Parent.Parent.Parent.main.Transparency = 1
 	end)
 	
-	
 end
-coroutine.wrap(XJOA_fake_script)()
-local function GYNAZX_fake_script() -- setting.LocalScript 
-	local script = Instance.new('LocalScript', setting)
+coroutine.wrap(FXTQKOR_fake_script)()
+local function NIEI_fake_script() -- Loadeditor.LocalScript 
+	local script = Instance.new('LocalScript', Loadeditor)
 
-	local credittab = script.Parent
-	local tabs = credittab.Parent.Parent:FindFirstChild("Tabs")
-	local credit = tabs:FindFirstChild("Credits")
-	local exe = tabs:FindFirstChild("Exe")
-	local scripts = tabs:FindFirstChild("Scripts")
-	credittab.MouseButton1Click:Connect(function()
-		credit.Visible = false
-		exe.Visible = false
-		scripts.Visible = true
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.executorframe.text1.Text = getclipboard()
+	end)
+end
+coroutine.wrap(NIEI_fake_script)()
+local function XGCIHQU_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	local executeframe = script.Parent.Parent.Parent.executebutton.executorframe
+	
+	script.Parent.MouseButton1Down:Connect(function()
+			loadstring(executeframe.text1.Text)() 
+	end)
+end
+coroutine.wrap(XGCIHQU_fake_script)()
+local function SYBGR_fake_script() -- Clear.LocalScript 
+	local script = Instance.new('LocalScript', Clear)
+
+	local executeframe = script.Parent.Parent.Parent.executebutton.executorframe
+	
+	script.Parent.MouseButton1Down:Connect(function()
+		executeframe.text1.Text = ""
+	end)
+end
+coroutine.wrap(SYBGR_fake_script)()
+local function LZGB_fake_script() -- plus.LocalScript 
+	local script = Instance.new('LocalScript', plus)
+
+	local btn = script.Parent
+	
+	local function AddScript(name, source)
+		makefolder("fluxsus")
+		writefile("fluxsus/" .. name, source)
+	
+		local parent = script.Parent.Parent.Parent.Frame
+		local hub = parent.Folder.Frame
+		local newhub = hub:Clone()
+	
+		local scriptname = newhub.TextLabel
+		local execbutton = newhub.TextButton
+		local delbutton = newhub.del
+	
+		newhub.Parent = parent
+		newhub.Visible = true
+		scriptname.Text = "script.txt"
+		execbutton.MouseButton1Click:Connect(function()
+			loadstring(source)()
 		end)
+		delbutton.MouseButton1Click:Connect(function()
+			newhub:Destroy()
+			delfile("fluxsus/"..name)
+		end)
+	end
 	
-	
+	btn.MouseButton1Click:Connect(function()
+		AddScript(script.Parent.Parent.sname.Text, script.Parent.Parent.code.Text, false)
+		script.Parent.Parent.code.Text = ""
+		script.Parent.Parent.sname.Text = ""
+	end)	
 end
-coroutine.wrap(GYNAZX_fake_script)()
-local function JLOPU_fake_script() -- Credittab.LocalScript 
-	local script = Instance.new('LocalScript', Credittab)
+coroutine.wrap(LZGB_fake_script)()
+local function IGZXD_fake_script() -- back_2.LocalScript 
+	local script = Instance.new('LocalScript', back_2)
 
-	local credittab = script.Parent
-	local tabs = credittab.Parent.Parent:FindFirstChild("Tabs")
-	local credit = tabs:FindFirstChild("Credits")
-	local exe = tabs:FindFirstChild("Exe")
-	local scripts = tabs:FindFirstChild("Scripts")
-	credittab.MouseButton1Click:Connect(function()
-		credit.Visible = true
-		exe.Visible = false
-		scripts.Visible = false
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.consolebutton.Visible = false
+		script.Parent.Parent.Parent.mainbutton.Visible = true
+		script.Parent.Parent.Parent.Parent.Parent.main.Transparency = 1
+	end)
+end
+coroutine.wrap(IGZXD_fake_script)()
+local function GFYUQX_fake_script() -- Executor.LocalScript 
+	local script = Instance.new('LocalScript', Executor)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.executebutton.Visible = true
+		script.Parent.Parent.Parent.Parent.Parent.main.Transparency = 0.6
+	
+	end)
+end
+coroutine.wrap(GFYUQX_fake_script)()
+local function DMERJN_fake_script() -- Console.LocalScript 
+	local script = Instance.new('LocalScript', Console)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.consolebutton.Visible = true
+		script.Parent.Parent.Parent.Parent.Parent.main.Transparency = 0.6
+	end)
+end
+coroutine.wrap(DMERJN_fake_script)()
+local function LQPPZ_fake_script() -- Cloud.LocalScript 
+	local script = Instance.new('LocalScript', Cloud)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Visible = false
+		script.Parent.Parent.Parent.cloudbutton.Visible = true
+		script.Parent.Parent.Parent.Parent.Parent.main.Transparency = 0.6
+	end)
+end
+coroutine.wrap(LQPPZ_fake_script)()
+local function YIUYHUL_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Down:Connect(function()
+	local maim = script.Parent.Parent.Parent.Parent.main
+	local open = script.Parent.Parent.Parent.Parent.open
+	script.Parent.Active = true
+		script.Parent.Draggable = true
+		script.Parent.Parent.mainbutton.Visible = true
+		script.Parent.Parent.consolebutton.Visible = false
+		script.Parent.Parent.executebutton.Visible = false
+		script.Parent.Parent.cloudbutton.Visible = false
+	game:GetService("TweenService"):Create(open,TweenInfo.new(2),{Position=UDim2.new(0.007, 0,0.046, 0)}):Play()
+	game:GetService("TweenService"):Create(maim,TweenInfo.new(2),{Position=UDim2.new(-5,0,0,0)}):Play()
+	end)
+end
+coroutine.wrap(YIUYHUL_fake_script)()
+local function EYNE_fake_script() -- back_3.LocalScript 
+	local script = Instance.new('LocalScript', back_3)
+
+	script.Parent.MouseButton1Down:Connect(function()
+		script.Parent.Parent.Parent.cloudbutton.Visible = false
+		script.Parent.Parent.Parent.mainbutton.Visible = true
+		script.Parent.Parent.Parent.Parent.Parent.main.Transparency = 1
+	end)
+end
+coroutine.wrap(EYNE_fake_script)()
+local function FIOL_fake_script() -- Clear_3.LocalScript 
+	local script = Instance.new('LocalScript', Clear_3)
+
+	local btn = script.Parent
+	
+	local function AddTab(imageTab, scriptname, source)
+		local scriptFrame = script.Parent.Parent.ScrollingFrame
+		local newList = scriptFrame.Folder.Frame:Clone()
+	
+		local execute = newList.load
+	
+		local scname = newList.TextLabel
+		local img = newList.ImageLabel
+	
+		newList.Name = scriptname
+		newList.Parent = scriptFrame
+		newList.Visible = true
+	
+		img.Image = imageTab
+	
+		scname.Text = scriptname
+	
+		execute.MouseButton1Click:Connect(function()
+			loadstring(source)()
+		end)
+	end
+	
+	
+	local http = game:GetService("HttpService")
+	btn.MouseButton1Click:Connect(function()
+		for _, child in ipairs(script.Parent.Parent.ScrollingFrame:GetChildren()) do
+			if child:IsA("Frame") then
+				child:Destroy()
+			end
+		end
+	
+	
+		local url = "https://scriptblox.com/api/script/search?filters=free&q="..script.Parent.Parent.TextBox.Text
+		local response = game:HttpGetAsync(url)
+		local decoded = http:JSONDecode(response)
+		for _, script in pairs(decoded.result.scripts) do
+			if(script.isUniversal == true) then
+				AddTab("rbxassetid://13945092962", script.title, script.script)
+			else
+				AddTab("https://assetgame.roblox.com/Game/Tools/ThumbnailAsset.ashx?aid="..script.game.gameId.."&fmt=png&wd=420&ht=420", script.title, script.script)
+			end
+	
+		end
+	
 	end)
 	
 	
 	
 end
-coroutine.wrap(JLOPU_fake_script)()
-local function RBQHHGE_fake_script() -- Discord.LocalScript 
-	local script = Instance.new('LocalScript', Discord)
+coroutine.wrap(FIOL_fake_script)()
+local function OCOAJQ_fake_script() -- ImageButton.LocalScript 
+	local script = Instance.new('LocalScript', ImageButton)
 
-	local discord = script.Parent
-	discord.MouseButton1Click:Connect(function()
-		setclipboard("hi")
-	end)
-	
-	
-end
-coroutine.wrap(RBQHHGE_fake_script)()
-local function XGQAT_fake_script() -- Discord.Script 
-	local script = Instance.new('Script', Discord)
-
-	local Frame = script.Parent.Parent.Frame
-	
-	script.Parent.MouseButton1Click:Connect(function()
-		Frame.Visible = true
-	end)
-	
-end
-
-coroutine.wrap(UHKXLG_fake_script)()
-local function UWXVXB_fake_script() -- clear.LocalScript 
-	local script = Instance.new('LocalScript', clear)
-
-	
-	
-end
-coroutine.wrap(UWXVXB_fake_script)()
-local function YHVH_fake_script() -- clipboard.LocalScript 
-	local script = Instance.new('LocalScript', clipboard)
-
-	print("Hello world!")
-	
-end
-coroutine.wrap(YHVH_fake_script)()
-local function YUEV_fake_script() -- copy.LocalScript 
-	local script = Instance.new('LocalScript', copy)
-
-	print("Hello world!")
-	
-end
-coroutine.wrap(YUEV_fake_script)()
-local function RHICW_fake_script() -- script8.LocalScript 
-	local script = Instance.new('LocalScript', script8)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(RHICW_fake_script)()
-local function NCNFPL_fake_script() -- script9.LocalScript 
-	local script = Instance.new('LocalScript', script9)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(NCNFPL_fake_script)()
-local function PJXV_fake_script() -- script0.LocalScript 
-	local script = Instance.new('LocalScript', script0)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(PJXV_fake_script)()
-local function MDXIC_fake_script() -- script01.LocalScript 
-	local script = Instance.new('LocalScript', script01)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(MDXIC_fake_script)()
-local function DGWJGGJ_fake_script() -- script2.LocalScript 
-	local script = Instance.new('LocalScript', script2)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(DGWJGGJ_fake_script)()
-local function JFTQN_fake_script() -- script3.LocalScript 
-	local script = Instance.new('LocalScript', script3)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(JFTQN_fake_script)()
-local function KZZTUKE_fake_script() -- script4.LocalScript 
-	local script = Instance.new('LocalScript', script4)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(KZZTUKE_fake_script)()
-local function ZYFNC_fake_script() -- script7.LocalScript 
-	local script = Instance.new('LocalScript', script7)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(ZYFNC_fake_script)()
-local function QJQEP_fake_script() -- script6.LocalScript 
-	local script = Instance.new('LocalScript', script6)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(QJQEP_fake_script)()
-local function IKCE_fake_script() -- script999.LocalScript 
-	local script = Instance.new('LocalScript', script999)
-
-	script.Parent.MouseButton1Click:Connect(function()
-	
-	end)
-	
-end
-coroutine.wrap(IKCE_fake_script)()
-local function TZCRJ_fake_script() -- icon.LocalScript 
-	local script = Instance.new('LocalScript', icon)
-
-	local icon = script.Parent
-	icon.Active = true
-	icon.Draggable = true
-end
-coroutine.wrap(TZCRJ_fake_script)()
-local function QZKTRP_fake_script() -- icon.LocalScript 
-	local script = Instance.new('LocalScript', icon)
-
-	local icon = script.Parent
-	local holder = icon.Parent
-	local TabsButton = holder:FindFirstChild("TabsButton")
-	local close = holder:FindFirstChild("x")
-	icon.MouseButton1Click:Connect(function()
-	TabsButton.Visible = true
-	icon.Visible = false
-	close.Visible = true
+	script.Parent.MouseButton1Down:Connect(function()
+	local maim = script.Parent.Parent.Parent.main
+		script.Parent.Parent.Parent.main.Transparency = 1
+		local open = script.Parent.Parent
+		script.Parent.Active = true
+		script.Parent.Draggable = true
+		game:GetService("TweenService"):Create(open,TweenInfo.new(2),{Position=UDim2.new(-1, 0, 0, 0)}):Play()
+		game:GetService("TweenService"):Create(maim,TweenInfo.new(0.8),{Position=UDim2.new(0,0,0,0)}):Play()
 	end)
 end
-coroutine.wrap(QZKTRP_fake_script)()
-local function SMHGZW_fake_script() -- x.LocalScript 
-	local script = Instance.new('LocalScript', x)
-
-	local close = script.Parent
-	local holder = close.Parent
-	local icon = holder:FindFirstChild("icon")
-	local tabsbutton = holder:FindFirstChild("TabsButton")
-	local tab = holder:FindFirstChild("Tabs")
-	close.MouseButton1Click:Connect(function()
-		close.Visible = false
-		icon.Visible = true
-		tabsbutton.Visible = false
-			tab.Visible = false
-	end)
-end
-coroutine.wrap(SMHGZW_fake_script)()
-local function VWIJPVB_fake_script() -- ccc.LocalScript 
-	local script = Instance.new('LocalScript', ccc)
-
-	local credittab = script.Parent
-	local tabs = credittab.Parent.Parent:FindFirstChild("Tabs")
-	local credit = tabs:FindFirstChild("Credits")
-	local exe = tabs:FindFirstChild("Exe")
-	local scripts = tabs:FindFirstChild("Scripts")
-	credittab.MouseButton1Click:Connect(function()
-		credit.Visible = true
-		exe.Visible = false
-		scripts.Visible = false
-	end)
+coroutine.wrap(OCOAJQ_fake_script)()
+local function KUUPKPY_fake_script() -- Newfluxsos.LocalScript 
+	local script = Instance.new('LocalScript', Newfluxsos)
 	
+	wait(2)
+	script.Parent.open.Visible = true
 end
-coroutine.wrap(VWIJPVB_fake_script)()
+coroutine.wrap(KUUPKPY_fake_script)()
+
+for _, file in ipairs(listfiles("fluxsus")) do
+	AddScript(file:sub(1, #file), readfile(file), true)
+end
